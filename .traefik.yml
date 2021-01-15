@@ -1,10 +1,11 @@
 displayName: Block and rewrite header or body
-summary: Block path and rewrite header or body.
+
 type: middleware
+
 import: github.com/czc006/block-rewrite-header-body
-compatibility: TODO
+
+summary: Block path and rewrite header or body
+
 testData:
-  headers:
-    h1: "value1"
-    code: "302"
-  body: "test body"
+  Headers:
+    Foo: Bar

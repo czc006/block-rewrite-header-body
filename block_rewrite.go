@@ -1,5 +1,5 @@
 // Package plugin_blockpath a plugin to block a path.
-package plugin_block_rewrite_header_body
+package block_rewrite_header_body
 
 import (
 	"context"
@@ -16,7 +16,10 @@ type Config struct {
 
 // CreateConfig creates and initializes the plugin configuration.
 func CreateConfig() *Config {
-	return &Config{}
+	return &Config{
+		Headers: make(map[string]string),
+		Body:    "",
+	}
 }
 
 type blockRewrite struct {

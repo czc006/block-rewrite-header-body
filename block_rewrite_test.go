@@ -1,4 +1,4 @@
-package plugin_block_rewrite_header_body
+package block_rewrite_header_body
 
 import (
 	"bytes"
