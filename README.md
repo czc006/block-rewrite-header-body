@@ -12,7 +12,7 @@ Block Rewrite is a middleware plugin for [Traefik](https://github.com/traefik/tr
 
 [experimental.plugins.blockrewrite]
     modulename = "github.com/czc006/block-rewrite-header-body"
-    version = "v0.0.1"
+    version = "v0.0.2"
 ```
 
 ## Dynamic
